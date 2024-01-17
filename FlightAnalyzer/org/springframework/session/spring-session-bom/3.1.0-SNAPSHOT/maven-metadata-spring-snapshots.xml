@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.springframework.session</groupId>
+  <artifactId>spring-session-bom</artifactId>
+  <version>3.1.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20230515.102431</timestamp>
+      <buildNumber>79</buildNumber>
+    </snapshot>
+    <lastUpdated>20230515102701</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom.asc</extension>
+        <value>3.1.0-20230515.102431-79</value>
+        <updated>20230515102431</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.1.0-20230515.102431-79</value>
+        <updated>20230515102431</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module.asc</extension>
+        <value>3.1.0-20230515.102431-79</value>
+        <updated>20230515102431</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>3.1.0-20230515.102431-79</value>
+        <updated>20230515102431</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

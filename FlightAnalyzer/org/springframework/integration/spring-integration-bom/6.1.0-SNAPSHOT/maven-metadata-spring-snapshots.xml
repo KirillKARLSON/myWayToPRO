@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.springframework.integration</groupId>
+  <artifactId>spring-integration-bom</artifactId>
+  <version>6.1.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20230516.012802</timestamp>
+      <buildNumber>104</buildNumber>
+    </snapshot>
+    <lastUpdated>20230516013706</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>6.1.0-20230516.012802-104</value>
+        <updated>20230516012802</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

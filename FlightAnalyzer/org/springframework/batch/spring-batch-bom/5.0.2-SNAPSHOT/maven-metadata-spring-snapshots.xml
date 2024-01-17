@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.springframework.batch</groupId>
+  <artifactId>spring-batch-bom</artifactId>
+  <version>5.0.2-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20230511.115429</timestamp>
+      <buildNumber>31</buildNumber>
+    </snapshot>
+    <lastUpdated>20230511121200</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>5.0.2-20230511.115429-31</value>
+        <updated>20230511115429</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
