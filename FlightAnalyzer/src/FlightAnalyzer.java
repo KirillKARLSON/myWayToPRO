@@ -28,15 +28,19 @@ public class FlightAnalyzer {
             // Обход каждого билета
             for (int i = 0; i < ticketsArray.length(); i++) {
                 JSONObject ticket = ticketsArray.getJSONObject(i);
+                String cityFrom = ticket.getString("origin_name");
+                String cityTo = ticket.getString("destination_name");
                 String carrier = ticket.getString("carrier");
                 String departureTime = ticket.getString("departure_time");
                 String arrivalTime = ticket.getString("arrival_time");
 
                 // Добавление цены в список для расчета средней цены и медианы
-                allPrices.add(ticket.getInt("price"));
+                if (cityFrom.equals("Владивосток") && cityTo.equals("Тель-Авив")) {
+                    allPrices.add(ticket.getInt("price"));
 
-                int flightTime = calculateFlightTime(departureTime,arrivalTime);
-                calculateMinFlightTimePerCarrier(flightTime, carrier);
+                    int flightTime = calculateFlightTime(departureTime, arrivalTime);
+                    calculateMinFlightTimePerCarrier(flightTime, carrier);
+                }
             }
 
             double averagePrice = calcAveragePrice();
